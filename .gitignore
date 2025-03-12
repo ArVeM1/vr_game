@@ -1,0 +1,27 @@
+# Игнор файлов сборки
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/Plugins/*/Android/libs/
+Assets/Plugins/*/Android/libs.meta
+Assets/Plugins/*/Android/res/
+Assets/Plugins/*/Android/res.meta
+
+# Игнор локальных файлов
+.vscode/
+*.userprefs
+*.csproj
+*.sln
+*.pidb
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+
+# Игнор логов и временных файлов
+*.log
+*.apk
+*.aab
