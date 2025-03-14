@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.59f1 (630718f645a5) revision 6489880'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 32602 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.59f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Amir/UnityGames/VR game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60058
+Successfully changed project path to: C:/Users/Amir/UnityGames/VR game
+C:/Users/Amir/UnityGames/VR game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11864]  Target information:
+
+Player connection [11864]  * "[IP] 192.168.0.171 [Port] 0 [Flags] 2 [Guid] 1319183201 [EditorId] 1319183201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S3NOEP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11864]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 1319183201 [EditorId] 1319183201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S3NOEP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 11.02 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1 (630718f645a5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Amir/UnityGames/VR game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.59f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003214 seconds.
+- Loaded All Assemblies, in  0.196 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 352ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (59ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (69ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 847ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 9.83 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6140 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (374.7 KB). Loaded Objects now: 6578.
+Memory consumption went from 229.8 MB to 229.4 MB.
+Total: 3.438700 ms (FindLiveObjects: 0.312500 ms CreateObjectMapping: 0.203000 ms MarkObjects: 2.720500 ms  DeleteObjects: 0.201700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1423877.743649 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4b68b9603c0bf85852985c520e88c8e0') in 0.002341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.558597 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2b471ed0c9a8365d8ba8dd6036731fd0') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004673 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ddc33d86dc11f0a836ecdbb831f168a8') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9e7c56138e3e119bc794ba0af840c89e') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '25dc83518e76a5fd19f0c009e531c0e7') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fcf2edc17007ff6fd0d1d575c3f4be3d') in 0.001113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.695227 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(7b4cbf58b2e538648b8832f3b29a4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(7b4cbf58b2e538648b8832f3b29a4758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '81b66fab9fa6fa165e4a91dc83f9971d') in 0.005663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 28.047408 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat
+  artifactKey: Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat using Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '22dea03e0e730945d19966e6b63a4a6a') in 0.162923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9fdcfe7091b4f66b08b4f2936cfd72bc') in 0.133282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.386885 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9e76cb7b4a98d294f784a764b7dc16a5') in 0.003382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Gaze Controller.preset
+  artifactKey: Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Gaze Controller.preset using Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '11ae9314092ab0b5fce0aa427764c1c7') in 0.005076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '043791ccdfeef6ee127a212b98fe4f23') in 0.004666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset
+  artifactKey: Guid(55f7614a1d331d14bb631965514937d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Right ActionBasedControllerManager.preset using Guid(55f7614a1d331d14bb631965514937d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3a494adbcc0c7188d846c0ab90f5f3ec') in 0.002927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Right Grab Move.preset
+  artifactKey: Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Right Grab Move.preset using Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f66b6f942dd5bc34996bfbcf3ae9f1d') in 0.002083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '76e4409468349fcea6798e3c59feb024') in 0.002601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset
+  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3c6d59e904213a11f053911f8ac19175') in 0.003850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.192691 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/Primitive_Cylinder.fbx
+  artifactKey: Guid(9e1dc1c14313460d872de39e35129b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/Primitive_Cylinder.fbx using Guid(9e1dc1c14313460d872de39e35129b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0b144c2a3478b6a8bff7a88cc8bed18e') in 0.106249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/Reticle_Torus.fbx
+  artifactKey: Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cdec5dbf876d474b9e1c80e52be84783') in 0.067423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8e2088dcff6e4d45ef471b3eba3db8a6') in 0.086551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.566740 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Materials/UI-NoZTest.mat
+  artifactKey: Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.4/Starter Assets/Materials/UI-NoZTest.mat using Guid(6f3d696f7c3365846b6dc2402afb3d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5598d08cf1f963f277095bd051dc0251') in 0.012399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

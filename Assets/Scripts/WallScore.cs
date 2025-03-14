@@ -18,8 +18,24 @@ public class WallScore : MonoBehaviour
         {
             score++;
             UpdateScore();
+            RespawnSphere(collision.gameObject);
             canScore = false; 
             Invoke(nameof(ResetScoreFlag), 0.1f); 
+        }
+    }
+
+    private void RespawnSphere(GameObject sphere)
+    {
+        Rigidbody rb = sphere.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.velocity = Vector3.zero; 
+            rb.angularVelocity = Vector3.zero; 
+        }
+
+        if (sphere.TryGetComponent<SphereInitialPosition>(out var initialPosition))
+        {
+            sphere.transform.position = initialPosition.initialPosition;
         }
     }
 
